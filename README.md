@@ -14,8 +14,8 @@ cd service-b && python app.py
 
 # Terminal 3: Test
 curl "http://127.0.0.1:8081/call-echo?msg=hello"
-
-# Success:
+```
+Success:
 # Curl Command testing service A & service B:
 ![App Screenshot](images/a1.png)
 
