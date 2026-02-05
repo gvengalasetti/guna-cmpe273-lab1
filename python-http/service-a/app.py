@@ -17,5 +17,13 @@ def echo():
     logging.info(f'service=A endpoint=/echo status=ok latency_ms={int((time.time()-start)*1000)}')
     return jsonify(resp)
 
+@app.get("/reverse")
+def reverse():
+    start = time.time()
+    msg = request.args.get("msg", "")
+    resp = {"reversed": msg[::-1]}
+    logging.info(f'service=A endpoint=/reverse status=ok latency_ms={int((time.time()-start)*1000)}')
+    return jsonify(resp)
+
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080)
