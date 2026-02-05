@@ -20,20 +20,30 @@ Curl Command testing service A & service B:
 ![App Screenshot](images/image1.png)
 
 Service A:
+
+
 ![App Screenshot](images/image2.png)
 
 Service B:
+
+
 ![App Screenshot](images/image3.png)
 
-Failure:
+## Failure:
+
+Curl Example 1:
+
+
 ![App Screenshot](images/image4.png)
 
-![App Screenshot](images/image5.png)
+Curl Example 2:
+
 
 ![App Screenshot](images/image6.png)
 
+Service B:
 
-
+![App Screenshot](images/image5.png)
 
 
 
